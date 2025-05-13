@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <h1>Blackjack</h1>
+    <input type="text" id="player-name" placeholder="Enter your name" />
+    <button onclick="setPlayerName()">Set Name</button>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startGame()">start game</button>
+    <button onclick="newCard()">new card</button>
+    <button onclick="resetGame()">reset game</button>
+    <p id="player-el"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
